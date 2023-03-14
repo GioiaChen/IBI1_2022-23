@@ -1,6 +1,6 @@
 # What does this piece of code do?
 # Answer:
-# Take a random number from 1 to 100 for 10 times, each time take the ceiling of the random number adn 
+# Take random numbers from 1 to 100 for 10 times, each time take the ceiling of the random number adn 
 # Import libraries
 # randint allows drawing a random number,
 # e.g. randint(1,5) draws a number between 1 and 5
