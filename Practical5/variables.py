@@ -2,19 +2,20 @@ a = -3.19
 b = -118.24
 c = 116.39
 d = a-b
-print(d)
-e = a-c
-print(e)
-# Is d greater than or equal to e?
-d >= e
+print (d)
+e = c-a
+print (e)
 # Is d greater than e?
-d > e
-# d is greater than e. Rob	travel	further	to	Los	Angeles than to Haining.
+print (e > d)
+# Did Rob travel further to Haining or Los Angeles?
+if e > d:
+ print ("Haining")
+# Rob travel further to Los Angrles.
 X = True
 Y = False
 W = X and Y
-print(W)
+print (W)
 # W = False
 Z = X or Y
-print(Z)
+print (Z)
 # Z = True
