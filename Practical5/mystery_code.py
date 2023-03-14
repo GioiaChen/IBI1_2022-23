@@ -1,6 +1,6 @@
 # What does this piece of code do?
 # Answer:
-# Take random numbers from 1 to 100 for 10 times, each time take the ceiling of the random number. Then compare those random numbers to get the greatest one. 
+# Take random numbers from 1 to 100 for 10 times. Each time take the ceiling of the random number. Then compare those random numbers to get the greatest one. 
 # Import libraries
 # randint allows drawing a random number,
 # e.g. randint(1,5) draws a number between 1 and 5
