@@ -4,4 +4,6 @@ Movie_genre = {'Comedy':73,'Action':42,'Romance':38,'Fantasy':28,'Science-fictio
 Movie_genre['War'] = 7
 # Print the dictionary of Movie genre
 print(Movie_genre)
-
+# Input a kink of movie genre and output the corresponding number.
+input = 'Comedy'
+print(Movie_genre[input])
