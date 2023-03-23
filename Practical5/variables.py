@@ -1,3 +1,4 @@
+# Input the variables.
 a = -3.19
 b = -118.24
 c = 116.39
@@ -10,12 +11,10 @@ print (e > d)
 # Did Rob travel further to Haining or Los Angeles?
 if e > d:
  print ("Haining")
-# Rob travel further to Los Angrles.
+# Answer: Rob travel further to Haining.
 X = True
 Y = False
 W = X and Y
-print (W)
-# W = False
+print (W)  # W = False
 Z = X or Y
-print (Z)
-# Z = True
+print (Z)  # Z = True
