@@ -1,0 +1,9 @@
+Question: 
+What is the trend of the death rate of covid in Austria?
+
+The question is addressed in the covid.py file from line to line.
+
+Answer:
+The death rate can be indicated from the proportion of total deaths and total cases. 
+According to the plot, the proportion of total deaths continuously dropped since the number of total cases increased rapidly and the number of total deaths grew at a very slow speed.
+This means that the deeath rate of covid in Austria has a trend of decreasing.
