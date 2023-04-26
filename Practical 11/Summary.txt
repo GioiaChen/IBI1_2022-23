@@ -1,0 +1,20 @@
+SUMMARY
+In the practical for this week, we focused on the sequence alignment between human, mouse and cat.
+Python has been used in the task to write a sequence comparison program, in which the alignment score and the percentage of identical amino acids for each of the three comparisons have been evaluated.
+
+From the output of the python program, the relation among these three sequences is shown as below:
+For human and mouse:
+  Alignment score: 3579
+  Percentage of identical amino acids: 82.11180124%
+For mouse and cat:
+  Alignment score:3592
+  Percentage of identical amino acids: 81.73913043%
+For human and cat:
+  Alignment score:3717
+  Percentage of identical amino acids: 85.21739130%
+
+As we can see in the result, the comparison between human and cat gets the highest alignment score as well as the percentage of identical amino acids, which means that the similarity of protein sequence bewteen human and cat is the highest amoung this three comparison.
+The percentage of identical amino acids indicates how well is the consistency between the two sequences.
+The alignment score indicates how well the elements in the sequence align with the other at the same position. Since the given scores are set according to the probability of the two amino acids appear in the related sequences, the score is not completely corresponding to the percentage. It's much more based on natural law compared with the percentage.
+The higher the score and the percentage, the much closer connection between the two proteinsequences.
+These two indicators can be used to see the likelihood between the spiecies for the researchers to study the potential of their having the same ancestor and trace the evolutionary process. They can also be used to understand the function and structure of proteins.
