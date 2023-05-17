@@ -1,0 +1,4 @@
+In this week's practical, I learned how to use cygwin to write some files and modified them.
+I also learned how to use github as a platform to upload my codes.
+I met some challenges, like figuring out the steps of committing the files to github.
+Since it's the first time that I have ever been exposed to cygwin and github, it will still take me some time to get familiar with the codes and operations. 
