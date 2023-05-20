@@ -10,7 +10,10 @@ def dna_coding(sequence):
     seq_len = len(sequence)
 
     # Calculate the distance between the start and stop codons
-    coding_len = 0 if start_index == -1 or stop_index == -1 else stop_index - start_index + 3
+    if start_index == -1 or stop_index == -1:
+        coding_len = 0
+    else:
+        coding_len = stop_index - start_index + 3
 
     # Calculate the percentage of the sequence that is coding
     coding_percent = (coding_len / seq_len) * 100
@@ -24,7 +27,7 @@ def dna_coding(sequence):
         return coding_percent, 'unclear'
 
 
-# Example usage
-dna_sequence = 'ATGGCGTGTGTCAGTGAACGGCTAGCAT'
+# Example
+dna_sequence = input("Please input a DNA sequence here:")
 percent, label = dna_coding(dna_sequence)
 print(f'The DNA sequence is {percent:.2f}% coding and should be labeled as {label}.')
